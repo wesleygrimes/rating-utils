@@ -1,0 +1,27 @@
+{
+  "name": "@wesleygrimes/undefined",
+  "version": "0.0.1",
+  "description": "undefined package",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleygrimes/undefined.git"
+  },
+  "keywords": [
+    "undefined"
+  ],
+  "author": "Wes Grimes <wesleygrimes@icloud.com> (https://github.com/wesleygrimes)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesleygrimes/undefined/issues"
+  },
+  "homepage": "https://github.com/wesleygrimes/undefined#readme"
+}
