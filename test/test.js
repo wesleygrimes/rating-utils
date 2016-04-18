@@ -1,6 +1,6 @@
 var should = require('chai').should(),
     rating = require('../index'),
-    add = undefined.add;
+    add = rating.add;
     
 describe('#add', function() {
     it('adds the leftSide and rightSide together', function(){
