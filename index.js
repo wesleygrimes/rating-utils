@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Undefined module, not yet sure what it is going to do.
  * 

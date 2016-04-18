@@ -1,5 +1,3 @@
-'use strict';
-
 var should = require('chai').should(),
     undefined = require('../index'),
     add = undefined.add;
