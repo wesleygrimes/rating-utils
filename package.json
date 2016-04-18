@@ -1,7 +1,7 @@
 {
   "name": "@wesleygrimes/rating-utils",
   "version": "0.0.1",
-  "description": "small library of helper methods for rating insurance policies",
+  "description": "library of helper methods for rating insurance policies",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/wesleygrimes/rating-utils.git"
   },
   "keywords": [
-    "undefined"
+    "rating,insurance,policy,calculator,utility"
   ],
   "author": "Wes Grimes <wesleygrimes@icloud.com> (https://github.com/wesleygrimes)",
   "license": "MIT",
