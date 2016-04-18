@@ -1,5 +1,5 @@
 /**
- * Undefined module, not yet sure what it is going to do.
+ * Rating utils, library of helper methods for rating insurance policies
  * 
  * @param {Number} leftSide
  * @param {Number} rightSide

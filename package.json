@@ -1,7 +1,7 @@
 {
-  "name": "@wesleygrimes/undefined",
+  "name": "@wesleygrimes/rating-utils",
   "version": "0.0.1",
-  "description": "undefined package",
+  "description": "small library of helper methods for rating insurance policies",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wesleygrimes/undefined.git"
+    "url": "git+https://github.com/wesleygrimes/rating-utils.git"
   },
   "keywords": [
     "undefined"
@@ -21,7 +21,7 @@
   "author": "Wes Grimes <wesleygrimes@icloud.com> (https://github.com/wesleygrimes)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wesleygrimes/undefined/issues"
+    "url": "https://github.com/wesleygrimes/rating-utils/issues"
   },
-  "homepage": "https://github.com/wesleygrimes/undefined#readme"
+  "homepage": "https://github.com/wesleygrimes/rating-utils#readme"
 }

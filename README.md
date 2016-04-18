@@ -1,16 +1,16 @@
 ## Synopsis
 
-Module to add together 2 numbers
+Library of helper methods for rating insurance policies
 
 ## Installation
 
-`npm install @wesleygrimes/undefined`
+`npm install @wesleygrimes/rating-utils`
 
 ## Usage
 
 ```
-var undefined = require('@wesleygrimes/undefined');
-var result = undefined.add(1,2); //result should equal 3
+var rating = require('@wesleygrimes/rating-utils');
+var result = rating.add(1,2); //result should equal 3
 ```
 
 ## Tests

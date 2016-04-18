@@ -1,5 +1,5 @@
 var should = require('chai').should(),
-    undefined = require('../index'),
+    rating = require('../index'),
     add = undefined.add;
     
 describe('#add', function() {
