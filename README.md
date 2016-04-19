@@ -11,13 +11,18 @@ Library of helper methods for rating insurance policies
 
 ## Installation
 
-`npm install @wesleygrimes/rating-utils`
+`npm install rating-utils`
 
 ## Usage
 
 ```
-var rating = require('@wesleygrimes/rating-utils');
-var result = rating.add(1,2); //result should equal 3
+var rating = require('rating-utils');
+
+//full term endorsement
+var result = proRataFactor('2015-01-01', '2015-12-31'); //result should be 1
+
+//mid term endorsement
+var result2 = proRataFactor('2015-01-01', '2015-06-30'); //result should be approx .5
 ```
 
 ## Tests
