@@ -1,0 +1,8 @@
+{
+    "prorata": {
+        "rounding": {
+            "precision": 4,
+            "enabled": true
+        }
+    }
+}
