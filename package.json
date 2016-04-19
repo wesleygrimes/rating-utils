@@ -6,9 +6,14 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.13.0",
+    "twix": "^0.9.0",
+    "useful-date": "0.0.6"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai-stats": "^0.3.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5"

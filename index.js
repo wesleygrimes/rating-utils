@@ -1,12 +1,18 @@
+var moment = require("moment");
+require("twix");
+
 /**
  * Rating utils, library of helper methods for rating insurance policies
  * 
- * @param {Number} leftSide
- * @param {Number} rightSide
- * @return {Number}
+ * @param {String} policyEffectiveDate
+ * @param {String} revisionEffectiveDate
+ * @return {Float}
  */
 module.exports = {
-    add: function(leftSide, rightSide) {
-        return leftSide + rightSide;
+    proRataFactor: function(policyEffectiveDate, revisionEffectiveDate) {
+        var actualDays = moment(policyEffectiveDate).twix(revisionEffectiveDate).length("days");
+        var effPlusYear = moment(policyEffectiveDate).add(1, "years").subtract(1, "days");
+        var daysIfFullYear = moment(policyEffectiveDate).twix(effPlusYear).length("days");
+        return (actualDays/daysIfFullYear).toPrecision(4);
     }
 };
