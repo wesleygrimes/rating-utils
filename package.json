@@ -1,6 +1,6 @@
 {
   "name": "@wesleygrimes/rating-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "library of helper methods for rating insurance policies",
   "main": "index.js",
   "directories": {
